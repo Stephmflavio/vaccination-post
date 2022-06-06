@@ -30,3 +30,19 @@
 
 
 
+// LOGIN ----------------------------------------------
+
+
+// const login = () => {
+//  const senha = prompt("Digite sua senha")   
+//  const login = "labenu"
+//     if(senha === login){
+//         console.log("Usuário logado");
+//     } else {
+//         console.log("Senha Inválida");
+//     }
+// }
+
+// console.log(login());
+
+
