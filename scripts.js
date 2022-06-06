@@ -99,3 +99,23 @@
 // console.log(segundaDose("Barbara"));
 
 
+// ATRASO DE DOSE -------------------------------------------
+
+
+// const avisoAosAtrasados = () => {
+//     const usuarios = [
+//         { nome: "Artur", imunizacao: "incompleta" },
+//         { nome: "Barbara", imunizacao: "completa" },
+//         { nome: "Carlos", imunizacao: "incompleta" }
+//     ]
+//     for (let n of usuarios) {
+//         if (n.imunizacao === "incompleta") {
+
+//             console.log(`Olá ${n.nome}! Sua imunização está ${n.imunizacao}, por favor volte ao postinho para tomar a segunda dose.`)
+//         }
+
+//     }
+// }
+// console.log(avisoAosAtrasados());
+
+
