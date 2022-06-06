@@ -119,3 +119,75 @@
 // console.log(avisoAosAtrasados());
 
 
+// DESAFIO --------------------------------------------------
+
+// const usuarios = [
+//     {
+//         nome: "Artur",
+//         ano: 2000,
+//         nacionalidae: "brasileiro",
+//         senha: "123456",
+//         vacina: "pfizer",
+//         imunizacao: "incompleta"
+//     },
+//     {
+//         nome: "Bárbara",
+//         ano: 1984,
+//         nacionalidae: "brasileira",
+//         senha: "labenu",
+//         vacina: "astrazenica",
+//         imunizacao: "completa"
+//     },
+//     {
+//         nome: "Carlos",
+//         ano: 2000,
+//         nacionalidae: "brasileiro",
+//         senha: "123456",
+//         vacina: "coronavac",
+//         imunizacao: "incompleta"
+//     }
+
+// ]
+// const novoUsuario=[]
+// const cadastro=()=>{
+       
+//         const nomeDoUsuario = prompt("Digite seu nome") 
+//         const anoDeNascimento = Number(prompt("Digite seu ano de nascimento") )
+//         const nacionalidadeDoUsuario = prompt("Digite sua nacionalidade").toLowerCase()
+//         const senhaDoUsuario = prompt("Cadastre sua senha") 
+//         console.log("nacionalidadeDoUsuario", nacionalidadeDoUsuario);
+//         const idade = 2021 - anoDeNascimento
+    
+//         if(senhaDoUsuario.length < 6){
+//             console.log('sua senha deve ter pelo menos 6 caracteres')
+//         }
+//         if(idade < 18){
+//             console.log('Para se cadastrar precisa ter 18 anos')
+//         }
+//         if(nacionalidadeDoUsuario !== "brasileira" || nacionalidadeDoUsuario !== "brasileiro"){
+//             console.log('Para se cadastrar precisa ser brasileiro ou brasileira')
+//         }
+    
+//         if(idade >= 18 && nacionalidadeDoUsuario === "brasileira" && senhaDoUsuario.length >= 6){
+//             usuarios.push({nome:nomeDoUsuario, ano:anoDeNascimento, nacionalidade:nacionalidadeDoUsuario, senha:senhaDoUsuario} )
+//             console.log('Usuário cadastrado com sucesso')
+//         }
+//         return usuarios
+//     }
+//     console.log(cadastro());
+
+//     const login = () => {
+
+//          const senhaDoUsuario = prompt("Digite sua senha") 
+//          const senhaValida = usuarios.filter((senha)=>{
+
+//             if(senha.senha===senhaDoUsuario){
+//                 return "Usuário logado"
+//             }else{
+//                 return 
+//             }
+
+//          }) 
+        
+//          }
+//         console.log(login());
