@@ -76,3 +76,26 @@
 
 
 
+// SEGUNDA DOSE ------------------------------------------
+
+
+// const segundaDose = (nomeDoUsuario) => {
+//     const usuarios = [
+//         { nome: "Artur", imunizacao: "incompleta" },
+//         { nome: "Barbara", imunizacao: "incompleta" },
+//         { nome: "Carlos", imunizacao: "incompleta" }
+//     ]
+
+//     let novoUsuario = [...usuarios]
+
+//     for (let n of novoUsuario) {
+//         if (n.nome === nomeDoUsuario) {
+//            n.imunizacao= "completa"
+//             return novoUsuario
+//         }
+
+//     }
+// }
+// console.log(segundaDose("Barbara"));
+
+
