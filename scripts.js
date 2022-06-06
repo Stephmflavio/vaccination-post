@@ -46,3 +46,33 @@
 // console.log(login());
 
 
+// PRIMEIRA DOSE --------------------------------------
+
+
+// const primeiraDose = () => {
+//     const nome = prompt("Digite seu nome")
+//     const vacina = prompt("Digite o nome da vacina da 1ª dose")
+//     let tempo = ""
+//     let data = ""
+
+//     if (vacina === "coronavac") {
+//         tempo = 28
+//         data = "27/09/2021"
+
+//     } else if (vacina === "pfiser") {
+//         tempo = "90"
+//         data = "30/11/2021"
+
+//     } else {
+//         tempo = "90"
+//         data = "30/11/2021"
+
+//     }
+
+//     return (`Olá ${nome}! A próxima dose da ${vacina} é daqui a ${tempo} dias. Compareça no posto na data ${data}.`)
+
+// }
+// console.log(primeiraDose())
+
+
+
